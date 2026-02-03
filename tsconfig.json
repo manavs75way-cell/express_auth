@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": ".",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    },
+    /* Environment Settings */
+    "module": "commonjs",
+    "target": "es2016",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    /* Module Resolution */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    /* Other Outputs */
+    "sourceMap": true,
+    /* Stricter Typechecking Options */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    /* Recommended Options */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "index.ts",
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
